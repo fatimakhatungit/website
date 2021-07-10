@@ -690,3 +690,6 @@ color: pink;
 	background: #0eaaa6;
 	border-radius: 5px;
 }
+.filter-icon ul li a:hover {
+	color: #0eaaa6;
+}
