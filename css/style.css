@@ -492,3 +492,27 @@ color: pink;
 .filter-menu-box {
 	background: #e8e8e8;
 }
+.section-title h3 {
+	font-size: 20px;
+	color: #7f7f7f;
+	margin-left: 40px;
+}
+.filter-title h4 {
+	color: #7f7f7f;
+	font-size: 20px;
+	margin-left: 40px;
+}
+.icon a i {
+	-moz-transform: matrix( 0,-1.18109214605858,1.18109214605858,0,0,0);
+	-webkit-transform: matrix( 0,-1.18109214605858,1.18109214605858,0,0,0);
+	text-align: right;
+}
+.icon {
+	text-align: right;
+	margin-right: 30px;
+}
+.filter-item {
+	background: #fff;
+	padding: 30px 0px 0px 30px;
+	box-shadow: 0px 3px 6px -2px #b5b4b4;
+}
