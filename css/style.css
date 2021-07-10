@@ -305,11 +305,14 @@ label {
   }
   .name a {
 	color: #a7afc1;
+	position: absolute;
+	top: 2px;
+	right: -16px;
 }
 .logo img {
 	width: 80%;
 	margin-top: 12px;
-}
+} 
 .right-side {
 	text-align: right;
 }
@@ -413,4 +416,53 @@ label {
 }
 .filter-tab {
 	background: #fff;
+}
+.search-form {
+	background: #222 none repeat scroll 0 0;
+	position: absolute;
+	right: 0;
+	top: 100%;
+	width: 245px; 
+	transition: 3s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 2;
+}
+.header-search:hover .search-form {
+	opacity: 100%;
+	visibility: visible;
+
+}
+.search-form input {
+	background: none;
+	color: #fff;
+	border:0;
+	width: 100%;
+	height: 50px;
+	padding: 0 15px;
+
+}
+.search-form form {
+	position: relative;
+}
+.search-form button {
+	background: none;
+	border: 0 none;
+	color: #fff;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	width: 50px;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+color: pink;
+}
+.search-form input::-moz-placeholder { /* Firefox 19+ */
+color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+color: pink;
+}
+:-moz-placeholder { /* Firefox 18- */
+color: pink;
 }
