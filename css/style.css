@@ -507,23 +507,25 @@ color: pink;
 	-moz-transform: matrix( 0,-1.18109214605858,1.18109214605858,0,0,0);
 	-webkit-transform: matrix( 0,-1.18109214605858,1.18109214605858,0,0,0);
 	text-align: right;
+	color: #7f7f7f;
 }
 .icon {
 	text-align: right;
 	margin-right: 30px;
-} 
+}  
 .filter-item {
 	background: #fff;
-	padding: 30px 0px 0px 30px;
-	box-shadow: 0px 3px 6px -3px #b5b4b4;
+	padding: 30px 0px 0px 0px;
+	box-shadow: 12px 14px 13px -13px #b5b4b4;
 	margin-bottom: 40px;
 	position: relative;
+	margin-left: 30px;
 }
 .filter-content h3 {
 	font-size: 16px;
 	font-weight: 500;
 	color: #000;
-} 
+}  
 .right-icon span {
 	font-size: 16px;
 }
@@ -561,9 +563,41 @@ color: pink;
 .dispenible span {
 	color: #0eaaa6;
 	font-size: 18px;
-}
+} 
 .bottom-button {
 	background: #0eaaa6;
-	padding: 10px 18px;
+	padding: 10px 13px;
+	margin: 20px 0px;
+}
+.bottom-button a {
 	color: #fff;
+	font-size: 18px;
+}
+
+.bottom-button span {
+	color: #fff;
+	width: 20px;
+	height: 20px;
+	background: #ea3b34;
+	position: absolute;
+	border-radius: 20px;
+	line-height: 20px;
+	bottom: 15px;
+	text-align: center;
+	margin-left: 5px;
+	right: 10px;
+}
+.footer {
+	background: #333333;
+	padding: 40px;
+}
+.footer-widget.title a {
+	color: #a3d7c4;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.footer-widget.title h5 {
+	color: #fff;
+	font-size: 16px;
+	margin: 10px 10px 0px 0px;
 }
