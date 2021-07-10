@@ -273,10 +273,12 @@ label {
 
 .header-transparent {
 	padding: 0px 20px;
+	background: #fff;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16);
   }
   .left-side .image img {
 	width: 40%;
-  } 
+  }  
   .left-side .image span {
 	color: #fff;
 	width: 25px; 
@@ -285,8 +287,9 @@ label {
 	position: absolute;
 	border-radius: 20px;
 	line-height: 25px;
-	top: 16px;
+	top: 9px;
 	text-align: center;
+	margin-left: -10px;
 }
 .left-side {
 	position: relative;
@@ -294,9 +297,36 @@ label {
   .name {
 	position: absolute;
 	top: 37px;
-	left: 68px;
-  }
+	right: 0px;
+  } 
   .name h3 {
 	font-size: 18px;
 	color: #a7afc1;
   }
+  .name a {
+	color: #a7afc1;
+}
+.logo img {
+	width: 80%;
+	margin-top: 12px;
+}
+.right-side {
+	text-align: right;
+}
+.right-side {
+	text-align: right;
+	margin-top: 20px;
+  }  
+.header-search {
+	float:right;
+}
+
+ 
+  .dropdown-toggle::after {
+	display: none;
+
+}
+.main-section {
+	background: #f3f3f3;
+	padding: 50px 0px 0px 0px;
+}
