@@ -570,14 +570,14 @@ color: pink;
 } 
 .bottom-button {
 	background: #0eaaa6;
-	padding: 10px 13px;
+	padding: 6px 13px;
 	margin: 20px 0px;
 }
 .bottom-button a {
 	color: #fff;
 	font-size: 18px;
 }
-
+ 
 .bottom-button span {
 	color: #fff;
 	width: 20px;
@@ -586,11 +586,12 @@ color: pink;
 	position: absolute;
 	border-radius: 20px;
 	line-height: 20px;
-	bottom: 15px;
+	bottom: 10px;
 	text-align: center;
 	margin-left: 5px;
 	right: 10px;
-}
+	/*! top: 0px; */
+} 
 .footer {
 	background: #333333;
 	padding: 40px;
