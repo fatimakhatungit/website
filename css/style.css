@@ -601,3 +601,16 @@ color: pink;
 	font-size: 16px;
 	margin: 10px 10px 0px 0px;
 }
+
+.footer-widget h5 {
+	color: #a3d7c4;
+	text-transform: capitalize;
+	font-size: 18px;
+}
+.footer-widget p {
+	color: #fff;
+	margin: 0;
+}
+.footer-widget a {
+	color: #fff;
+}
