@@ -329,4 +329,72 @@ label {
 .main-section {
 	background: #f3f3f3;
 	padding: 50px 0px 0px 0px;
+} 
+.profile-wrapper {
+	background: #fff;
+	text-align: center;
+	padding: 50px 20px 80px 20px;
+	margin-left: 20px;
+	overflow: hidden;
+}
+.first-image h3 {
+	color: #a7afc1;
+	font-size: 18px;
+}
+.star i {
+	font-size: 14px;
+	color: #f19e1b;
+	margin-bottom: 20px;
+}
+
+
+.first-image h3 {
+	color: #a7afc1;
+	font-size: 18px;
+  }
+  .star i {
+	font-size: 14px;
+	color: #f19e1b;
+	margin-bottom: 20px;
+  }
+  .button .btn {
+	color: #0eaaa6;
+	background: transparent;
+	border: 2px solid #0eaaa6;
+	border-radius: 30px;
+	padding: 13px 8px;
+	margin: 30px 0px;
+  } 
+  .button a i {
+	margin-right: 7px;
+  }
+  .client-icon {
+	border: 1px solid #f1f1f1;
+	float: left;
+	padding: 4px 38px;
+	text-align: center;
+  }
+
+   
+.client-icon .counter {
+	font-size: 18px;
+  }
+  .client-icon h3 {
+	font-size: 16px;
+	text-align: center;
+	text-transform: capitalize;
+	font-weight: 400;
+	color: #7f7f7f;
+  }
+  .counter-section {
+	overflow: hidden;
+	/*! text-align: center; */
+	margin-bottom: 30px;
+  }
+  .parrainage h4 {
+	font-size: 18px;
+	color: #7f7f7f;
+}
+.parrainage a {
+	color: #0eaaa6;
 }
