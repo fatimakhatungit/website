@@ -189,11 +189,11 @@ label {
 	border: medium none;
 	border-radius: 2px;
 	color: #fff;
-	cursor: pointer;
+	cursor: pointer; 
 	display: inline-block;
 	font-size: 13px;
 	font-weight: 600;
-	letter-spacing: 1px;
+	letter-spacing: 0px;
 	line-height: 1;
 	margin-bottom: 0;
 	padding: 13px 25px;
@@ -299,15 +299,16 @@ label {
 	right: 0px;
   } 
   .name h3 {
-	font-size: 18px;
+	font-size: 16px;
 	color: #a7afc1;
+	text-transform: capitalize;
   }
   .name a {
 	color: #a7afc1;
 	position: absolute;
 	top: -1px;
 	right: -16px;
-}
+} 
 .logo img {
 	width: 80%;
 	margin-top: 12px;
@@ -352,12 +353,13 @@ label {
 .first-image h3 {
 	color: #a7afc1;
 	font-size: 18px;
+	text-transform: capitalize;
   }
   .star i {
 	font-size: 14px;
 	color: #f19e1b;
 	margin-bottom: 20px;
-  }
+  } 
   .button .btn {
 	color: #0eaaa6;
 	background: transparent;
