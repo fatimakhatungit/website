@@ -305,13 +305,13 @@ label {
   .name a {
 	color: #a7afc1;
 	position: absolute;
-	top: 2px;
+	top: -1px;
 	right: -16px;
 }
 .logo img {
 	width: 80%;
 	margin-top: 12px;
-} 
+}  
 .right-side {
 	text-align: right;
 }
@@ -365,7 +365,6 @@ label {
 	border-radius: 30px;
 	padding: 13px 8px;
 	margin: 30px 0px;
-	text-transform: lowercase;
   } 
   .button a i {
 	margin-right: 7px;
@@ -471,7 +470,7 @@ color: pink;
 .btn.btn-other {
 	background: #0eaaa6;
 	padding: 12px 10px;
-	text-transform: lowercase;
+	/*! text-transform: lowercase; */
 }
 .btn.btn-other i {
 	margin-right: 5px;
