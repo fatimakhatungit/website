@@ -671,13 +671,13 @@ color: pink;
 	color: #7f7f7f;
 }
 .footer-widget.contact-widget p {
-	color: #7f7f7f;
+	color: #e2e2e2;
 }
 .subscribe input {
 	padding: 6px 9px;
 	border-radius: 5px;
 	border: none;
-} 
+}  
 .subscribe {
 	margin-top: 5px;
 }
