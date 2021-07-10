@@ -366,6 +366,7 @@ label {
 	border-radius: 30px;
 	padding: 13px 8px;
 	margin: 30px 0px;
+	text-transform: lowercase;
   } 
   .button a i {
 	margin-right: 7px;
@@ -510,9 +511,59 @@ color: pink;
 .icon {
 	text-align: right;
 	margin-right: 30px;
-}
+} 
 .filter-item {
 	background: #fff;
 	padding: 30px 0px 0px 30px;
-	box-shadow: 0px 3px 6px -2px #b5b4b4;
+	box-shadow: 0px 3px 6px -3px #b5b4b4;
+	margin-bottom: 40px;
+	position: relative;
+}
+.filter-content h3 {
+	font-size: 16px;
+	font-weight: 500;
+	color: #000;
+} 
+.right-icon span {
+	font-size: 16px;
+}
+.filter-item .img img {
+	width: 30px;
+}
+.filter-icon ul li {
+	display: inline-block;
+	margin-right: 6px;
+}
+.filter-icon ul li a {
+	color: #7f7f7f;
+	margin: 6px 0px;
+}
+.filter-image img {
+	width: 40%;
+}
+.fil-name h3 {
+	font-size: 14px;
+	color: #000;
+}
+.fil-name {
+	position: absolute;
+	top: 20px;
+	right: -14px;
+}
+.filter-icon {
+	margin: 10px 0px;
+}
+.fil-name .star i {
+	font-size: 12px;
+	color: #f19e1b;
+	margin-bottom: 20px;
+}
+.dispenible span {
+	color: #0eaaa6;
+	font-size: 18px;
+}
+.bottom-button {
+	background: #0eaaa6;
+	padding: 10px 18px;
+	color: #fff;
 }
