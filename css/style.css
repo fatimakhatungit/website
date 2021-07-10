@@ -270,3 +270,33 @@ label {
 	background: #2B96CC;
 	color: #fff
 }
+
+.header-transparent {
+	padding: 0px 20px;
+  }
+  .left-side .image img {
+	width: 40%;
+  } 
+  .left-side .image span {
+	color: #fff;
+	width: 25px; 
+	height: 25px;
+	background: #ea3b34;
+	position: absolute;
+	border-radius: 20px;
+	line-height: 25px;
+	top: 16px;
+	text-align: center;
+}
+.left-side {
+	position: relative;
+  }
+  .name {
+	position: absolute;
+	top: 37px;
+	left: 68px;
+  }
+  .name h3 {
+	font-size: 18px;
+	color: #a7afc1;
+  }
