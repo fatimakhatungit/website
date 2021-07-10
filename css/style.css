@@ -398,3 +398,19 @@ label {
 .parrainage a {
 	color: #0eaaa6;
 }
+.filter-menu-box ul li a {
+	background: #e8e8e8;
+	color: #000;
+	padding: 12px 15px;
+}
+.filter-menu-box ul li a:hover{
+	background: #fff;
+	color: #0eaaa6;
+}
+.filter-menu-box ul li a.active{
+	background: #fff;
+	color: #0eaaa6;
+}
+.filter-tab {
+	background: #fff;
+}
