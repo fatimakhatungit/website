@@ -1,19 +1,32 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
 
-
+    .client-icon {
+        padding: 4px 30px;
+    }
 }
 
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
 
-
+    .client-icon {
+        padding: 4px 30px;
+    }
 }
 
  
 /* Tablet desktop :768px. */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 992px) {
+    .container {
+        max-width: 800px;
+    }
+    .counter-section {
+        margin-left: 23%;
+    }
+    .filter-tab {
+        margin: 30px 0px;
+    }
 
 
 }

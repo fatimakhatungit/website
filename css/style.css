@@ -557,7 +557,7 @@ color: pink;
 	right: -14px;
 }
 .filter-icon {
-	margin: 10px 0px;
+	margin: 10px 10px;
 }
 .fil-name .star i {
 	font-size: 12px;
@@ -567,16 +567,18 @@ color: pink;
 .dispenible span {
 	color: #0eaaa6;
 	font-size: 18px;
-} 
+}  
 .bottom-button {
 	background: #0eaaa6;
 	padding: 6px 13px;
 	margin: 20px 0px;
+	position: relative;
+	z-index: 1;
 }
 .bottom-button a {
 	color: #fff;
 	font-size: 18px;
-}
+} 
  
 .bottom-button span {
 	color: #fff;
@@ -693,4 +695,19 @@ color: pink;
 }
 .filter-icon ul li a:hover {
 	color: #0eaaa6;
+}
+.modal-button {
+	border: none;
+	background: transparent;
+}
+.bottom-button span::before {
+	position: absolute;
+	content: "";
+	width: 7px;
+	height: 13px;
+	background: #fff;
+	bottom: -2px;
+	z-index: ;
+	z-index: -1;
+	left: 0px;
 }
