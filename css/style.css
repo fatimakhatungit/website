@@ -294,10 +294,10 @@ label {
 	position: relative;
   }
   .name {
-	position: absolute;
-	top: 37px;
-	right: 16px;
-  }  
+    position: absolute;
+    top: 32px;
+    right: 16px;
+} 
   .name h3 {
 	font-size: 16px;
 	color: #a7afc1;
@@ -544,6 +544,10 @@ color: pink;
 	color: #7f7f7f;
 	margin: 6px 0px;
 }
+.filter-icon  .fas.fa-plane {
+	-moz-transform: matrix( 0,-1.18109214605858,1.18109214605858,0,0,0);
+	-webkit-transform: matrix( 0,-1.18109214605858,1.18109214605858,0,0,0);
+}
 .filter-image img {
 	width: 40%;
 }
@@ -689,13 +693,13 @@ color: pink;
 	margin-top: 5px;
 }
 .subscribe button {
-	display: block;
-	padding: 7px 75px;
-	border: none;
-	margin: 10px 0px;
-	color: #fff;
-	background: #0eaaa6;
-	border-radius: 5px;
+    display: block;
+    padding: 7px 64px;
+    border: none;
+    margin: 10px 0px;
+    color: #fff;
+    background: #0eaaa6;
+    border-radius: 5px;
 }
 .filter-icon ul li a:hover {
 	color: #0eaaa6;

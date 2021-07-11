@@ -41,6 +41,11 @@
     .left-side .image span {
         top: 0px;
     }
+    .fil-name {
+        position: absolute;
+        left: 42%;
+        top: 50%;
+    }
 
 }
 
@@ -68,11 +73,27 @@
 }
 .fil-name {
 	position: absolute;
-	bottom: 20%;
+	/*! bottom: 0%; */
 	left: 42%;
-}
+	top: 50%;
+} 
 
- 
+.bottom-button {
+	margin-left: -30px;
+}
+.content {
+	position: absolute;
+	top: -64px;
+	left: 13%;
+}
+.right-icon {
+	position: absolute;
+	bottom: 45px;
+	right: 21px;
+}
+.filter-icon {
+	margin: 40px 10px 15px;
+}
 }
  
 /* Large Mobile :480px. */
