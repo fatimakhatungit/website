@@ -530,12 +530,12 @@ color: pink;
 	color: #000;
 }  
 .right-icon span {
-	font-size: 17px;
+	font-size: 16px;
 	color: #0eaaa6;
 } 
 .filter-item .img img {
 	width: 30px;
-}
+} 
 .filter-icon ul li {
 	display: inline-block;
 	margin-right: 6px;
@@ -550,23 +550,27 @@ color: pink;
 .fil-name h3 {
 	font-size: 14px;
 	color: #000;
+	margin: 0;
 }
 .fil-name {
 	position: absolute;
 	top: 20px;
 	right: -14px;
-}
+} 
 .filter-icon {
 	margin: 10px 10px;
-}
+} 
 .fil-name .star i {
-	font-size: 12px;
+	font-size: 10px;
 	color: #f19e1b;
 	margin-bottom: 20px;
 }
+.dispenible {
+	text-align: right;
+}
 .dispenible span {
 	color: #0eaaa6;
-	font-size: 18px;
+	font-size: 16px;
 }  
 .bottom-button {
 	background: #0eaaa6;
@@ -707,7 +711,9 @@ color: pink;
 	height: 13px;
 	background: #fff;
 	bottom: -2px;
-	z-index: ;
 	z-index: -1;
 	left: 0px;
+}
+.fil-name .star span {
+	font-size: 14px;
 }

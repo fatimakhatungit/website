@@ -27,13 +27,50 @@
     .filter-tab {
         margin: 30px 0px;
     }
-
+    .filter-menu-box ul li a span {
+        top: 42px;
+    }
+    .filter-item {
+        margin-left: 50px;
+    }
+    .name {
+        position: absolute;
+        top: 30px;
+        right: -2px;
+    }
+    .left-side .image span {
+        top: 0px;
+    }
 
 }
 
  
 /* small mobile :320px. */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+    .container {
+        max-width: 800px;
+    }
+.name h3 {
+	font-size: 12px;
+}
+.left-side .image span {
+	color: #fff;
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	top: 0px;
+	margin-left: -10px;
+}
+.name {
+	position: absolute;
+	top: 19px;
+	right: -7px;
+}
+.fil-name {
+	position: absolute;
+	bottom: 20%;
+	left: 42%;
+}
 
  
 }
