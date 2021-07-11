@@ -2,6 +2,8 @@
 "use strict";
 
 
+
+
 // counterUp
 $('.counter').counterUp({
   delay: 10,

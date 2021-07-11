@@ -51,7 +51,7 @@
         max-width: 800px;
     }
 .name h3 {
-	font-size: 12px;
+	font-size: 18px;
 }
 .left-side .image span {
 	color: #fff;
@@ -60,11 +60,11 @@
 	line-height: 18px;
 	top: 0px;
 	margin-left: -10px;
-}
+} 
 .name {
 	position: absolute;
-	top: 19px;
-	right: -7px;
+	top: 26px;
+	right: 0px;
 }
 .fil-name {
 	position: absolute;
